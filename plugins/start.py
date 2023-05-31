@@ -49,7 +49,7 @@ async def start(client,message):
 	        try:
 	            await client.send_message(id,"Your Friend already Using Our Bot")
 	            await message.reply_text(text =f"""
-	Hello {wish} {message.from_user.first_name }
+	{wish} {message.from_user.first_name }
 	ɪ'ᴍ ғɪʟᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ, ᴘʟᴇᴀsᴇ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴏᴄᴜᴍᴇɴᴛs && ᴠɪᴅᴇᴏ ᴀɴᴅ ᴇɴᴛᴇʀ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ɪᴛ
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
@@ -64,10 +64,9 @@ async def start(client,message):
 	         new_limit = limit + 104857600
 	         uploadlimit(int(id),new_limit)
 	         await message.reply_text(text =f"""
-	Hello {wish} {message.from_user.first_name }
-	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filename to rename it__
-	""",reply_to_message_id = message.id ,  
+	 {wish} {message.from_user.first_name }
+**ɪ'ᴍ ғɪʟᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ, ᴘʟᴇᴀsᴇ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴏᴄᴜᴍᴇɴᴛs && ᴠɪᴅᴇᴏ ᴀɴᴅ ᴇɴᴛᴇʀ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ɪᴛ**
+	""",reply_to_message_id = message.id , #ɪ'ᴍ ғɪʟᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ, ᴘʟᴇᴀsᴇ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴏᴄᴜᴍᴇɴᴛs && ᴠɪᴅᴇᴏ ᴀɴᴅ ᴇɴᴛᴇʀ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ɪᴛ  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ 🇮🇳" ,url="https://t.me/Index_AC") ], 
 	[InlineKeyboardButton("ᴏᴡɴᴇʀ 🥷", url="https://t.me/SexyNano") ]  ]))
@@ -94,14 +93,14 @@ async def send_doc(client,message):
            prsize = bot_data['total_size']
            user_deta = find_one(user_id)
        except:
-           await message.reply_text("Use About cmd first /about")
+           await message.reply_text("ᴜsᴇ ᴀʙᴏᴜᴛ ᴄᴍᴅ ғɪʀɪ /about")
        try:
        	used_date = user_deta["date"]
        	buy_date= user_deta["prexdate"]
        	daily = user_deta["daily"]
        	user_type = user_deta["usertype"]
        except:
-           await message.reply_text("database has been Cleared click on /start")
+           await message.reply_text("ᴅᴀᴛᴀʙsᴇ ʜᴀs ʙᴇᴇɴ ᴄʟᴇᴀʀᴇᴅ ᴄʟɪᴄᴋ ᴏɴ /start")
            return
            
            
@@ -116,7 +115,7 @@ async def send_doc(client,message):
        conversion = datetime.timedelta(seconds=left)
        ltime = str(conversion)
        if left > 0:       	    
-       	await message.reply_text(f"```Sorry Dude I am not only for YOU \n Flood control is active so please wait for {ltime}```",reply_to_message_id = message.id)
+       	await message.reply_text(f"```sᴏʀʀʏ ᴅᴜᴅᴇ ɪᴍ ɴᴏᴛ ᴏɴʟʏ ғᴏʀ ʏᴏᴜ \n ғʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ ɪs ᴀᴄᴛɪᴠᴇ sᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴏʀ  {ltime}```",reply_to_message_id = message.id)
        else:
        		# Forward a single message
            		
