@@ -22,11 +22,11 @@ botid = token.split(':')[0]
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-	wish = "Good morning."
+	wish = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ."
 elif 12 <= currentTime.hour < 12:
-	wish = 'Good afternoon.'
+	wish = 'ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ.'
 else:
-	wish = 'Good evening.'
+	wish = 'ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ.'
 
 #-------------------------------
 
@@ -37,8 +37,8 @@ async def start(client,message):
 	    id = message.text.split(' ')[1]
 	except:
 	    await message.reply_text(text =f"""
-	Hello {wish} {message.from_user.first_name }
-	__I am file renamer bot, Please sent any telegram 
+	{wish} {message.from_user.first_name }
+	file renamer bot, Please sent any telegram 
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
