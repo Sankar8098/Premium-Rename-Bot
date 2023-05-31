@@ -23,7 +23,7 @@ async def upgrade(bot,update):
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ᴀᴅᴍɪɴ 🛂",url = "https://t.me/SexyNano")], 
         			[InlineKeyboardButton("ᴘᴀʏᴘᴀʟ 🌎",url = "https://t.me/SexyNano"),
-        			InlineKeyboardButton("ᴜᴘɪ",url = "https://t.me/SexyNano")],[InlineKeyboardButton("🚫",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ᴜᴘɪ 🥷",url = "https://t.me/SexyNano")],[InlineKeyboardButton("🚫",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -49,5 +49,5 @@ async def upgradecm(bot,message):
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ᴀᴅᴍɪɴ 🛂",url = "https://t.me/SexyNano")], 
         			[InlineKeyboardButton("ᴘᴀʏᴘᴀʟ🌎",url = "https://t.me/SexyNano"),
-        			InlineKeyboardButton("ᴜᴘɪ",url = "https://t.me/SexyNano")],[InlineKeyboardButton("🚫",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ᴜᴘɪ 🥷",url = "https://t.me/SexyNano")],[InlineKeyboardButton("🚫",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
