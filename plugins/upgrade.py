@@ -3,22 +3,23 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
-	text = """**Free Plan User**
-	Daily  Upload limit 2GB
-	Price 0
-	
-	**VIP 1 ** 
-	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
-	
-	**VIP 2 **
-	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
-	
-	Pay Using Upi I'd ```divindass@fbl```
-	
-	After Payment Send Screenshots Of 
-        Payment To Admin"""
+	text = """**ғʀᴇᴇ ᴘʟᴀɴ ᴜsᴇʀ**
+➠ ᴅᴀɪʟʏ  ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟸ɢʙ
+➠ ᴘʀɪᴄᴇ : ғʀᴇᴇ
+━━━━━━━━━━━━━━━━━━━━━━━
+** ᴠɪᴘ 𝟷 ᴘʟᴀɴ ᴜsᴇʀ**
+➠ ᴅᴀɪʟʏ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ 𝟷𝟶ɢʙ
+➠ ᴘʀɪᴄᴇ ʀs 𝟻𝟻  🇮🇳/🌎 𝟶.𝟼𝟽$  ᴘᴇʀ ᴍᴏɴᴛʜ 
+━━━━━━━━━━━━━━━━━━━━━━━
+** ᴠɪᴘ 𝟸 ᴘʟᴀɴ ᴜsᴇʀ**
+➠ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟻𝟶ɢʙ
+➠ ᴘʀɪᴄᴇ ʀs 𝟾𝟶  🇮🇳/🌎 𝟶.𝟿𝟽$  ᴘᴇʀ ᴍᴏɴᴛʜ 
+✧━━━━━▣✧❅✦❅✧▣━━━━━✧
+         ᴘᴀʏ ᴜsɪɴɢ ᴜᴘɪ ɪ'ᴅ
+     ```kunalgaikwad93@axl```
+✧━━━━━▣✧❅✦❅✧▣━━━━━✧
+ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛs ᴏғ 
+        ᴘᴀʏᴍᴇɴᴛ ᴛᴏ ᴀᴅᴍɪɴ"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/webx_admin_bot")], 
         			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/webx_admin_bot"),
@@ -28,23 +29,23 @@ async def upgrade(bot,update):
 
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
-	text = """**Free Plan User**
-	Daily  Upload limit 2GB
-	Price 0
-	
-	**VIP 1 ** 
-	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
-	
-	**VIP 2 **
-	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
-	
-	
-	Pay Using Upi I'd ```divindass@fbl```
-	
-	After Payment Send Screenshots Of 
-        Payment To Admin"""
+	text = """**ғʀᴇᴇ ᴘʟᴀɴ ᴜsᴇʀ**
+➠ ᴅᴀɪʟʏ  ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟸ɢʙ
+➠ ᴘʀɪᴄᴇ : ғʀᴇᴇ
+━━━━━━━━━━━━━━━━━━━━━━━
+** ᴠɪᴘ 𝟷 ᴘʟᴀɴ ᴜsᴇʀ**
+➠ ᴅᴀɪʟʏ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ 𝟷𝟶ɢʙ
+➠ ᴘʀɪᴄᴇ ʀs 𝟻𝟻  🇮🇳/🌎 𝟶.𝟼𝟽$  ᴘᴇʀ ᴍᴏɴᴛʜ 
+━━━━━━━━━━━━━━━━━━━━━━━
+** ᴠɪᴘ 𝟸 ᴘʟᴀɴ ᴜsᴇʀ**
+➠ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟻𝟶ɢʙ
+➠ ᴘʀɪᴄᴇ ʀs 𝟾𝟶  🇮🇳/🌎 𝟶.𝟿𝟽$  ᴘᴇʀ ᴍᴏɴᴛʜ 
+✧━━━━━▣✧❅✦❅✧▣━━━━━✧
+         ᴘᴀʏ ᴜsɪɴɢ ᴜᴘɪ ɪ'ᴅ
+     ```kunalgaikwad93@axl```
+✧━━━━━▣✧❅✦❅✧▣━━━━━✧
+ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛs ᴏғ 
+        ᴘᴀʏᴍᴇɴᴛ ᴛᴏ ᴀᴅᴍɪɴ"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/webx_admin_bot")], 
         			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/webx_admin_bot"),
