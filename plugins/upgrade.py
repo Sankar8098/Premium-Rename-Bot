@@ -21,9 +21,9 @@ async def upgrade(bot,update):
  ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛs ᴏғ 
         ᴘᴀʏᴍᴇɴᴛ ᴛᴏ ᴀᴅᴍɪɴ"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/webx_admin_bot")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/webx_admin_bot"),
-        			InlineKeyboardButton("UPI ",url = "https://t.me/webx_admin_bot")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ᴀᴅᴍɪɴ 🛂",url = "https://t.me/SexyNano")], 
+        			[InlineKeyboardButton("ᴘᴀʏᴘᴀʟ 🌎",url = "https://t.me/SexyNano"),
+        			InlineKeyboardButton("ᴜᴘɪ",url = "https://t.me/SexyNano")],[InlineKeyboardButton("🚫",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -47,7 +47,7 @@ async def upgradecm(bot,message):
  ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛs ᴏғ 
         ᴘᴀʏᴍᴇɴᴛ ᴛᴏ ᴀᴅᴍɪɴ"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/webx_admin_bot")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/webx_admin_bot"),
-        			InlineKeyboardButton("Paytm",url = "https://t.me/webx_admin_bot")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ᴀᴅᴍɪɴ 🛂",url = "https://t.me/SexyNano")], 
+        			[InlineKeyboardButton("ᴘᴀʏᴘᴀʟ🌎",url = "https://t.me/SexyNano"),
+        			InlineKeyboardButton("ᴜᴘɪ",url = "https://t.me/SexyNano")],[InlineKeyboardButton("🚫",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
