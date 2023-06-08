@@ -1,6 +1,6 @@
 import os 
 from pyrogram import Client, filters
-token = os.environ.get('TOKEN','6295603578:AAEICCTRwjkxDiJ-yb0mo_F2EYC-BmgX3Nc')
+token = os.environ.get('TOKEN','6049442426:AAFXdX3YnFM7gf1B5u52bbSpO44oWyQGTdo')
 botid = token.split(':')[0]
 from helper.database import botdata, find_one, total_user
 from helper.progress import humanbytes
@@ -10,4 +10,4 @@ async def start(client,message):
 	data = find_one(int(botid))
 	total_rename = data["total_rename"]
 	total_size = data["total_size"]
-	await message.reply_text(f"Total User:- {total_user()}\nBot :- @Jinpachi_EgoBot\nCreater :- @SexyNano\nLanguage :-Python3\nLibrary :- Pyrogram\nServer :- Oracle Cloud\nTotal Renamed File :-{total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} ",quote=True)
+	await message.reply_text(f"Total User:- {total_user()}\nBot :- @FourGBRename_RoBot\nCreater :- @SexyNano\nLanguage :-Python3\nLibrary :- Pyrogram\nServer :- VPS\nTotal Renamed File :-{total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} ",quote=True)
