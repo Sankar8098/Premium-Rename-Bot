@@ -13,9 +13,9 @@ from helper.date import add_date ,check_expi
 CHANNEL = os.environ.get('CHANNEL',"Index_AC")
 import datetime
 from datetime import date as date_
-STRING = os.environ.get("STRING","BQCYTlB43Yr8ZFSjrqionPjgMHvpB-NM1yg6reUzV9cJauK2gEg18LT-KdrrqWjtfYNMjD89bLvV-2apw-0ygZI4oeNBE1NeKc7_X0k8JR7tRVtTqan8OY3CkOaqYu3_asRDRAt4XhpbIoU1De3rWddwMCmrYE-WfaKZ7G-SsOAMKMxL1606rPezl7iGgqFPENgltSONEPfxWMAhQ2IpamiUQcHbpfAGCe1Mnb8TA1Zdpdn2BCy4KPiwO9JP9unqGTWk_UwPKkFLRtT6ggIzSpHbK1DUn3pUAHxZsZ-Iqxqh6hH0aGIjMCLrozWbrsSJFT_aEz7faR5cgZ2pTGg3CHDjAAAAAXd1EakA") 
+STRING = os.environ.get("STRING","BQBKxhVZpv89lKSNTJEcQYo2IHSci8y8GGxPFyA9w0X-4tYswcyy4-o8OZ5C71Hk5Jag3D7_jCJQOhJmRpNlWr81h048vCW0TDWqTjjiBoLVwDmbbBN09HewGTsCcwvwfWQVVSUQ-P4WJZZDHDf0bM0DdYoU-9zO74MUqibRx1ZXsRsVHS1ylguxrqfzxiOfVQfpyUZTto14uH1LfL-sN5n7ZcYCjmGCaO31GXqc3G5FLQdvErE-8MlYlxGLvmkXaU3eE9s0-VRe5p25031R0qgEP2kOCKRfc8ySxlrP33IkU2U9bR8Vk-JHIlpKPI_LoDJw1uTUyeqTVgt8v0te8Tl4AAAAAXF7EUsA") 
 log_channel = int(os.environ.get("LOG_CHANNEL","-1001596651023"))
-token = os.environ.get('TOKEN','6295603578:AAEICCTRwjkxDiJ-yb0mo_F2EYC-BmgX3Nc')
+token = os.environ.get('TOKEN','6049442426:AAFXdX3YnFM7gf1B5u52bbSpO44oWyQGTdo')
 botid = token.split(':')[0]
 
 #Part of Day --------------------
